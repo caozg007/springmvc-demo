@@ -1,4 +1,4 @@
-package com.fun.mvc.entity;
+package com.caocan.entity;
 
 public class Account {
 	private String cardNo;

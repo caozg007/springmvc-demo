@@ -1,16 +1,15 @@
-package com.fun.mvc.web.controller;
+package com.caocan.web.controller;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.AbstractController;
+import com.caocan.entity.Account;
 
-import com.fun.mvc.entity.Account;
-
+@Controller
 public class LoginController extends AbstractController {
 	private String successView;
 	private String failView;

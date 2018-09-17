@@ -8,7 +8,7 @@
            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
 	
-	<bean id="loginController" class="com.fun.mvc.web.controller.LoginController">
+	<bean id="loginController" class="com.caocan.web.controller.LoginController">
 		<property name="successView" value="showAccount"></property>
 		<property name="failView" value="login"></property>
 	</bean>
