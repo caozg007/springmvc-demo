@@ -1,4 +1,4 @@
-package com.caocan.web.controller;
+package com.caocan.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -57,5 +57,4 @@ public class LoginController extends AbstractController {
 			return null;
 		}
 	}
-
 }
